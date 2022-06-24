@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Mulish&family=Roboto:ital,wght@0,300;1,400&display=swap');
+
+
+.Main_day_div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 8%;
+    margin-right: 5%;
+    margin-top: 2% ;
+}
+.container{
+    background-color: skyblue;
+    border-radius: 30px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.day_h1 , h4{
+    color: rgba(0, 0, 0, 0.8);
+     font-family: 'Roboto', sans-serif;
+}
+.day_h1{
+    font-size: 20px;
+}
+
+.fa-circle-dot{
+    color: rgb(255, 63, 63);
+    transform: translateY(10px);
+    font-size: 14px;
+}
+
+/* @media only screen and (max-width:600px){
+    .Date_Task{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .Main_day_div{
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: space-between;
+    }
+    
+} */
+
